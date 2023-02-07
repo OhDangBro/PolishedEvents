@@ -1,8 +1,8 @@
-import './index.css';
-import ThreeColumns from './components/columns';
-import Hero from './components/hero'
-import Navbar from './components/navbar';
-import Footer from './components/footer';
+import '../../index.css';
+import ThreeColumns from '../../components/columns';
+import Hero from '../../components/hero'
+import Navbar from '../../components/navbar';
+import Footer from '../../components/footer';
 
 function LandingPage() {
   return (
@@ -10,7 +10,6 @@ function LandingPage() {
       <Navbar/>
       <Hero/>
     <ThreeColumns />
-    <Footer/>
   </div>
   );
 }
