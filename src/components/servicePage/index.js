@@ -7,6 +7,7 @@ const ServicesPage = () => {
   return (
     <React.Fragment>
     <CssBaseline />
+    <section id="Services">
     <Container fixed>
     <div id="Services" style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "120vh" }}>
       <div style={{ flex: 1, padding: "10px", marginLeft: "80px" }}>
@@ -15,7 +16,7 @@ const ServicesPage = () => {
             <h2 style={{ fontSize: "6rem", fontStyle: "italic", fontFamily: "regularFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>S</h2>
             <h2 style={{ fontSize: "2rem", fontFamily: "regularFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>ervices</h2>
           </div>
-          <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "16px", letterSpacing: ".05em", color: "#706d6d" }}>
+          <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "95%", lineHeight: "1.6rem", letterSpacing: ".05em", color: "#706d6d" }}>
             We offer a wide range of event services, including but not limited to: </p>      
             <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", width: "120%" }}>
             <ul style={{ flex: 1, padding: "5px", marginLeft: "40%" }}>
@@ -35,10 +36,11 @@ const ServicesPage = () => {
         </div>
       </div>
       <div className="my-cool-item" style={{ flex: 1, padding: "10px" }}>
-        <img src={PolishedThree} alt="Your Image" style={{ width: "90%", boxShadow: "80px -60px 0px 0 #C3A6A0" }} />
+        <img src={PolishedThree} alt="event planning" style={{ width: "90%", boxShadow: "80px -60px 0px 0 #C3A6A0" }} />
       </div>
     </div>
     </Container>
+    </section>
   </React.Fragment>
     
   );

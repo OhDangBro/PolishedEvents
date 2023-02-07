@@ -7,7 +7,6 @@ import Footer from '../../components/footer';
 function LandingPage() {
   return (
     <div className="App" style={{ backgroundColor: "#f7f7f7" }}>
-      <Navbar/>
       <Hero/>
     <ThreeColumns />
   </div>
