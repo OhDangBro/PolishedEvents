@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca81187d.css",
+    "main.js": "/static/js/main.47128330.js",
+    "static/js/787.4beeff0a.chunk.js": "/static/js/787.4beeff0a.chunk.js",
+    "static/media/hero1.PNG": "/static/media/hero1.3b76f5200aa8d6112227.PNG",
+    "static/media/hero7.JPG": "/static/media/hero7.19ba6dae11c5882653c7.JPG",
+    "static/media/hero4.jpg": "/static/media/hero4.657dcf53e0647c22b8a6.jpg",
+    "static/media/hero6.jpg": "/static/media/hero6.06bf4a4184516e38bd26.jpg",
+    "static/media/PolishedThree.jpg": "/static/media/PolishedThree.82a297c29d751f57d2e9.jpg",
+    "static/media/hero5.jpg": "/static/media/hero5.6c5b196bee1294f0c4bc.jpg",
+    "static/media/hero8.jpg": "/static/media/hero8.f4f14643ec651aa34420.jpg",
+    "static/media/PolishedOne.jpeg": "/static/media/PolishedOne.094f8f5c9fb9b493af12.jpeg",
+    "static/media/PolishedTwo.jpeg": "/static/media/PolishedTwo.43dde1a645ef97ce80e9.jpeg",
+    "static/media/hero3.JPG": "/static/media/hero3.ef597037499b631bd17c.JPG",
+    "static/media/Heartbroke-WylGE.ttf": "/static/media/Heartbroke-WylGE.bb4918f7db1403b57f5a.ttf",
+    "static/media/instagram.png": "/static/media/instagram.edb90ecc706a7a25542b.png",
+    "static/media/Didot-w5Rx.otf": "/static/media/Didot-w5Rx.534a9863bcfceb129705.otf",
+    "static/media/PolishedEventsIcon.svg": "/static/media/PolishedEventsIcon.580fa666199b9c25c5364cfe52a3ad96.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.ca81187d.css.map": "/static/css/main.ca81187d.css.map",
+    "main.47128330.js.map": "/static/js/main.47128330.js.map",
+    "787.4beeff0a.chunk.js.map": "/static/js/787.4beeff0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca81187d.css",
+    "static/js/main.47128330.js"
+  ]
+}
