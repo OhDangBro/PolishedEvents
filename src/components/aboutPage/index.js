@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <React.Fragment>
     <CssBaseline />
-    <Container fixed>
+    <Container maxWidth='xl'>
     
     <div style={{ display: "flex", alignItems: "center", height: "92h", justifyContent: "center" }}>
       <div style={{ flex: .8, paddingBottom: "250px", paddingRight: "200px", height: "100%", }}>
@@ -34,7 +34,7 @@ const AboutPage = () => {
   
 }} >
   Contact Us   <hr className="verticalLine" style={{
-    width: "3%",
+    width: "5.5%",
     height: "2px",
     border: "1px solid #c3a6a0",
     marginLeft: "1px",
@@ -43,8 +43,8 @@ const AboutPage = () => {
   />
 </p>
     </div>
-      <div className="my-cool-item" style={{ flex: 1, padding: "10px", height: "100%", textAlign: "center", paddingTop: "25%" }}>
-        <img src={PolishedOne} alt="Your Image" style={{ width: "120%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
+      <div className="my-cool-item" style={{ flex: 1, padding: "10px", height: "100%", textAlign: "center", paddingTop: "20%" }}>
+        <img src={PolishedOne} alt="Your Image" style={{ width: "100%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
       </div>
     </div>
     </Container>

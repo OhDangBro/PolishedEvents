@@ -22,7 +22,7 @@ const Contact = () => {
     </Icon> 732-555-5555    </p> 
 <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "70%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom: "0px", letterSpacing: ".05em", color: "#706d6d" }}>
 <Icon style={{ fontSize: "small" }}>
-      <EmailIcon />
+      <EmailIcon  />
     </Icon> polishedeventsco1@gmail.com   </p>
     <p style={{ 
   fontSize: "1rem", 
@@ -37,7 +37,7 @@ const Contact = () => {
   
 }} >
   Contact Us   <hr className="verticalLine" style={{
-    width: "3%",
+    width: "4%",
     height: "2px",
     border: "1px solid #c3a6a0",
     marginLeft: "1px",

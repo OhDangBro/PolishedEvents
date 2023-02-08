@@ -28,7 +28,7 @@ const About = ({handleClick}) => {
   
 }} >
   Read More   <hr className="verticalLine" style={{
-    width: "3%",
+    width: "6%",
     height: "2px",
     border: "1px solid #c3a6a0",
     marginLeft: "1px",
