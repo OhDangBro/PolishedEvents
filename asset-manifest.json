@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PolishedEvents/static/css/main.4f69a365.css",
-    "main.js": "/PolishedEvents/static/js/main.3c77b0e6.js",
+    "main.js": "/PolishedEvents/static/js/main.c3cf95b2.js",
     "static/js/787.4beeff0a.chunk.js": "/PolishedEvents/static/js/787.4beeff0a.chunk.js",
     "static/media/hero1.PNG": "/PolishedEvents/static/media/hero1.3b76f5200aa8d6112227.PNG",
     "static/media/hero7.JPG": "/PolishedEvents/static/media/hero7.19ba6dae11c5882653c7.JPG",
@@ -24,11 +24,11 @@
     "static/media/logo.svg": "/PolishedEvents/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/PolishedEvents/index.html",
     "main.4f69a365.css.map": "/PolishedEvents/static/css/main.4f69a365.css.map",
-    "main.3c77b0e6.js.map": "/PolishedEvents/static/js/main.3c77b0e6.js.map",
+    "main.c3cf95b2.js.map": "/PolishedEvents/static/js/main.c3cf95b2.js.map",
     "787.4beeff0a.chunk.js.map": "/PolishedEvents/static/js/787.4beeff0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f69a365.css",
-    "static/js/main.3c77b0e6.js"
+    "static/js/main.c3cf95b2.js"
   ]
 }
