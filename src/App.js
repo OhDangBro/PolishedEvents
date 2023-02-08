@@ -7,6 +7,7 @@ import ServicesPage from './components/servicePage';
 import AboutPage from './components/aboutPage'
 import ContactPage from './components/contactPage';
 import LandingPage from './components/landingPage';
+import Gallery from './components/galleryPage';
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
     }
     if (currentPage === "Contact") {
       return <ContactPage />;
+    }
+    if (currentPage === "Gallery") {
+      return <Gallery />;
     }
   };
 

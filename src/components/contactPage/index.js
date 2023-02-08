@@ -45,7 +45,7 @@ const ContactPage = () => {
     return (
         <React.Fragment>
             <CssBaseline />
-            <Container fixed>
+            <Container maxWidth='xxl'>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -71,137 +71,139 @@ const ContactPage = () => {
                         </div>
                     </div>
                     <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-
-
-
+                 
                     <div style={{ width: "70%", padding: "50px" }}>
                         <div style={{ display: "flex" }}>
-                            <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", border: "1px solid black", padding: "10px", width: "65%", height: "65%", boxShadow: "-60px -60px 0px 0 #C3A6A0" }}>
-
-
-                                <div style={{ display: "flex", flexDirection: "row" }}>
-
+                            <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", border: "1px solid #C3A6A0", padding: "10px", width: "45%", height: "80%", boxShadow: "-80px -60px 0px 0 #C3A6A0" }}>
+                                <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginBottom: "10px" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>First Name:</label>
+                                        <input
+                                            type="text"
+                                            name="firstname"
+                                            value={formData.firstname}
+                                            onChange={handleChange}
+                                            style={{
+                                                padding: "10px",
+                                                fontSize: "1rem",
+                                                fontFamily: "regularFont",
+                                                textAlign: "center",
+                                                width: "100%"
+                                            }}
+                                        />
+                                    </div>
+                                    <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Last Name:</label>
+                                        <input
+                                            type="text"
+                                            name="lastname"
+                                            value={formData.lastname}
+                                            onChange={handleChange}
+                                            style={{
+                                                padding: "10px",
+                                                fontSize: "1rem",
+                                                fontFamily: "regularFont",
+                                                textAlign: "center",
+                                                width: "100%"
+                                            }}
+                                        />
+                                    </div>
+                                </div>
+                                <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
+                                    <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Your Email:</label>
                                     <input
-                                        type="text"
-                                        name="firstname"
-                                        value={formData.firstname}
+                                        type="email"
+                                        name="email"
+                                        value={formData.email}
                                         onChange={handleChange}
-                                        placeholder="First Name"
                                         style={{
-                                            padding: "10px",
-                                            marginRight: "10px",
+                                            padding: "10px 10px 10px 10px",
                                             fontSize: "1rem",
                                             fontFamily: "regularFont",
-                                            textAlign: "center"
-
-                                        }}
-                                    />
-                                    <input
-                                        type="text"
-                                        name="lastname"
-                                        value={formData.lastname}
-                                        onChange={handleChange}
-                                        placeholder="Last Name"
-                                        style={{
-                                            padding: "10px",
-                                            marginRight: "10px",
-                                            fontSize: "1rem",
-                                            fontFamily: "regularFont",
-                                            textAlign: "center"
+                                            textAlign: "center",
+                                            width: "100%"
                                         }}
                                     />
                                 </div>
-                                <input
-                                    type="email"
-                                    name="email"
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                    placeholder="Your email"
-                                    style={{
-                                        padding: "10px",
-                                        marginRight: "10px",
-                                        fontSize: "1rem",
-                                        fontFamily: "regularFont",
-                                        textAlign: "center"
-                                    }}
-                                />
-                                <input
-                                    type="tel"
-                                    name="number"
-                                    value={formData.number}
-                                    onChange={handleChange}
-                                    placeholder="Your phone number"
-                                    style={{
-                                        padding: "10px",
-                                        marginRight: "10px",
-                                        fontSize: "1rem",
-                                        fontFamily: "regularFont",
-                                        textAlign: "center"
-                                    }}
-                                />
-
-                                <div style={{ display: "flex", flexDirection: "row" }}>
+                                <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
+                                    <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Your Phone Number:</label>
                                     <input
-                                        type="date"
-                                        name="eventdate"
-                                        value={formData.eventdate}
+                                        type="tel"
+                                        name="number"
+                                        value={formData.number}
                                         onChange={handleChange}
-                                        placeholder="Event date"
                                         style={{
-                                            padding: "10px",
-                                            marginRight: "10px",
+                                            padding: "10px 10px 10px 10px",
                                             fontSize: "1rem",
                                             fontFamily: "regularFont",
-                                            textAlign: "center"
-                                        }}
-                                    />
-                                    <input
-                                        type="text"
-                                        name="eventcity"
-                                        value={formData.eventcity}
-                                        onChange={handleChange}
-                                        placeholder="Event city"
-                                        style={{
-                                            padding: "10px",
-                                            marginRight: "10px",
-                                            fontSize: "1rem",
-                                            fontFamily: "regularFont",
-                                            textAlign: "center"
+                                            textAlign: "center",
+                                            width: "100%"
                                         }}
                                     />
                                 </div>
-                                <div style={{ display: "flex", flexDirection: "row" }}>
-                                    <input
-                                        type="number"
-                                        name="guests"
-                                        value={formData.guests}
-                                        onChange={handleChange}
-                                        placeholder="Number of guests"
-                                        style={{
-                                            padding: "10px",
-                                            marginRight: "10px",
-                                            fontSize: "1rem",
-                                            fontFamily: "regularFont",
-                                            textAlign: "center"
-                                        }}
-                                    />
-                                    <input
-                                        type="number"
-                                        name="budget"
-                                        value={formData.budget}
-                                        onChange={handleChange}
-                                        placeholder="Event budget"
-                                        style={{
-                                            padding: "10px",
-                                            marginRight: "10px",
-                                            fontSize: "1rem",
-                                            fontFamily: "regularFont",
-                                            textAlign: "center"
-                                        }}
-                                    />
+                                <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginBottom: "10px" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Event Date</label>
+                                        <input
+                                            type="date"
+                                            name="eventdate"
+                                            value={formData.eventdate}
+                                            onChange={handleChange}
+                                            style={{
+                                                padding: "10px",
+                                                fontSize: "1rem",
+                                                fontFamily: "regularFont",
+                                                textAlign: "center",
+                                            }}
+                                        />
+                                    </div>
+                                    <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Event City:</label>
+                                        <input
+                                            type="text"
+                                            name="eventcity"
+                                            value={formData.eventcity}
+                                            onChange={handleChange}
+                                            style={{
+                                                padding: "10px",
+                                                fontSize: "1rem",
+                                                fontFamily: "regularFont",
+                                                textAlign: "center",
+                                            }}
+                                        />
+                                    </div>
+                                </div>
+                                <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginBottom: "10px" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Number Of Guests:</label>
+                                        <input
+                                            type="number"
+                                            name="guests"
+                                            value={formData.guests}
+                                            onChange={handleChange}
+                                            style={{
+                                                padding: "10px",
+                                                fontSize: "1rem",
+                                                fontFamily: "regularFont",
+                                                textAlign: "center",
+                                            }}
+                                        />
+                                    </div>
+                                    <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Event Budget:</label>
+                                        <input
+                                            type="number"
+                                            name="budget"
+                                            value={formData.budget}
+                                            onChange={handleChange}
+                                            style={{
+                                                padding: "10px",
+                                                fontSize: "1rem",
+                                                fontFamily: "regularFont",
+                                                textAlign: "center",
+                                            }}
+                                        />
+                                    </div>
                                 </div>
                                 <button type="submit" style={{ padding: "10px" }}>
                                     Submit
@@ -211,24 +213,13 @@ const ContactPage = () => {
                                 <div style={{ width: "80%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                                     <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
                                         <h2 style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>G</h2>
-                                        <h2 style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>et in touch</h2>
+                                        <h2 style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>et in Touch</h2>
                                     </div>
-                                
-                            
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-
-                    <div style={{ width: "70%", padding: "50px", height: "45vh" }}>
-
-                        <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-
-                        </div>
-                    </div>
-
+              
                 </div>
             </Container>
         </React.Fragment>

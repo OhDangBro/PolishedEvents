@@ -24,8 +24,26 @@ const Contact = () => {
 <Icon style={{ fontSize: "small" }}>
       <EmailIcon />
     </Icon> polishedeventsco1@gmail.com   </p>
-    <p style={{ fontSize: "1rem", fontFamily: "regularFont", width: "30%", lineHeight: "1.6rem", letterSpacing: ".05em",  paddingBottom: "10px", color: "#706d6d" }} >
-Contact Us---
+    <p style={{ 
+  fontSize: "1rem", 
+  textAlign: "center", 
+  fontFamily: "regularFont", 
+  lineHeight: "1.6rem", 
+  letterSpacing: ".05em",  
+  paddingBottom: "10px", 
+  color: "#706d6d",
+  display: "flex",
+  justifyContent: "left",
+  
+}} >
+  Contact Us   <hr className="verticalLine" style={{
+    width: "3%",
+    height: "2px",
+    border: "1px solid #c3a6a0",
+    marginLeft: "1px",
+    marginTop: "1.9%"
+  }}
+  />
 </p>
   </div>
   <div className="my-cool-item" style={{ flex: 1, padding: "10px" }}>
