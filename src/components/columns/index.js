@@ -10,7 +10,7 @@ const ThreeColumns = () => {
     return (
       <React.Fragment>
       <CssBaseline />
-      <Container maxWidth='xl' >
+      <Container maxWidth='xxl' >
        <br></br>
    
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>

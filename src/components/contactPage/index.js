@@ -58,11 +58,11 @@ const ContactPage = () => {
                         <div style={{ display: "flex" }}>
                             <div style={{ flex: 1, padding: "10px" }}>
                                 <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", paddingTop: "60%" }}>
-                                    <h2 style={{ fontSize: "6rem", fontStyle: "italic", fontFamily: "regularFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>c</h2>
-                                    <h2 style={{ fontSize: "2rem", fontFamily: "regularFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>ontact us</h2>
+                                    <h2 style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>C</h2>
+                                    <h2 style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>ontact Us</h2>
                                 </div>
                                 <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "70%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>
-                                    get in touch with us now to kick-start the planning process for your unforgettable event.
+                                    Let us take care of the planning so that you can focus on what matters most.
                                 </p>
                             </div>
                             <div className="my-cool-item" style={{ flex: 1, padding: "10px" }}>
@@ -210,11 +210,10 @@ const ContactPage = () => {
                             <div style={{ flex: 1, padding: "10px", marginLeft: "80px" }}>
                                 <div style={{ width: "80%", display: "flex", flexDirection: "column", alignItems: "center" }}>
                                     <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
-                                        <h2 style={{ fontSize: "6rem", fontStyle: "italic", fontFamily: "regularFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>G</h2>
-                                        <h2 style={{ fontSize: "2rem", fontFamily: "regularFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>et in Touch</h2>
+                                        <h2 style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>G</h2>
+                                        <h2 style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>et in touch</h2>
                                     </div>
-                                    <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "16px", letterSpacing: ".05em", color: "#706d6d" }}>
-                                        We offer a wide range of event services, including but not limited to: </p>
+                                
                             
                                 </div>
                             </div>

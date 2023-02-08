@@ -1,18 +1,32 @@
 import React from 'react';
-import InstaIcon from "../../assets/images/instagram.png"
+import { Icon } from "@material-ui/core";
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
 
 const Footer = ({handleClick}) => {
   const year = new Date().getFullYear();
 
   return (
-<footer style={{display: 'flex', justifyContent: 'center', padding: '0.5em', backgroundColor: "#c3a6a0", height: "7vh"}}>
-  <a style={{flex: 1, textDecoration: 'none', color: "black", fontSize: "10px", marginTop: "5px"}} href="mailto:polishedeventsco1@gmail.com">Contact</a>     
-  <div style={{flex: .8, display: 'flex', alignItems: 'center', fontSize: "10px", }}>
-    <a target="_blank" href="https://www.instagram.com/polishedevents_co/?igshid=YmMyMTA2M2Y%3D">
-      <img src={InstaIcon} alt="Instagram Icon" style={{width: '20px', height: '20px', marginRight: '5px'}} />
-    </a>
-  </div>
-  <div style={{flex: .3, display: 'flex', alignItems: 'center', fontSize: "8px", }}>&copy; Polished Event {year}</div>
+<footer style={{
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  padding: '0.5em',
+  backgroundColor: "#c3a6a0",
+  height: "7vh"
+}}>
+  <div> <Icon style={{ fontSize: "small", color: "white" }}>
+      <FacebookIcon />
+    </Icon> <Icon style={{ fontSize: "small", color: "white" }}>
+      <EmailIcon />
+    </Icon> <Icon style={{ fontSize: "small", color: "white" }}>
+      <InstagramIcon />
+    </Icon></div>
+    <div style={{ color: "white", fontSize: "15px" }}>
+  Polished Events &copy; {new Date().getFullYear()}
+</div>
 </footer>
   );
 };

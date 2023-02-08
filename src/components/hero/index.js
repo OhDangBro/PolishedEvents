@@ -1,15 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import HeroOne from "../../assets/images/heroImages/hero1.PNG"
-import HeroThree from "../../assets/images/heroImages/hero3.JPG"
-import HeroFour from "../../assets/images/heroImages/hero4.jpg"
-import HeroFive from "../../assets/images/heroImages/hero5.jpg"
-import HeroSix from "../../assets/images/heroImages/hero6.jpg"
-import HeroSeven from "../../assets/images/heroImages/hero7.JPG"
-import HeroEight from "../../assets/images/heroImages/hero8.jpg"
+
+import HeroThree from "../../assets/images/heroImages/flowerimg.webp"
 
 const Hero = () => {
   const [index, setIndex] = useState(0);
-  const images = [HeroOne, HeroThree, HeroFour, HeroFive, HeroSix, HeroSeven, HeroEight];
+  const images = [ HeroThree,];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -23,13 +18,14 @@ const Hero = () => {
       <img
         src={images[index]}
         alt="Slide"
-        style={{ position: 'absolute', top: 0, bottom: 0, left: 0, right: 0, width: '100%', height: '100%', transform: 'scale(1)', transition: 'opacity 2s' }}
+        style={{ position: 'absolute', top: "100px", bottom: 0, left: 0, right: 0, width: '100%', height: '100%', transform: 'scale(1)', transition: 'opacity 1s', 
+      }}
       />
-      <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', marginRight: "15%" }}>
+      <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', marginRight: "10%" }}>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
-          <div>
-            <h2 style={{ fontSize: "7rem", fontStyle: "italic", fontFamily: "regularFont", fontWeight: "lighter", margin: 0, lineHeight: "1.3rem", paddingBottom: "40px", color: '#fff' }}>Polished Events</h2>
-            <p style={{ fontFamily: "regularFont", marginTop: "0", width: "100%", lineHeight: "1.6rem", fontSize: "2rem", letterSpacing: ".05em", color: "#fff", textAlign: 'center' }}>Experience the epitome of sophistication with Polished Events - elevating your events to the next level.</p>
+          <div style={{paddingBottom: "250px"}}>
+            <h2 style={{ marginBottom: "25%", fontSize: "10rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: 0, lineHeight: "1.3rem", paddingBottom: "40px", color: 'white'  }}>Polished Events</h2>
+            <p style={{  fontFamily: "regularFont", marginTop: "10", width: "90%", lineHeight: "1.6rem", fontSize: "1.3rem", letterSpacing: ".05em", color: "#fff", textAlign: 'center' }}>Experience the epitome of sophistication with Polished Events - elevating your events to the next level.</p>
           </div>
         </div>
       </div>
