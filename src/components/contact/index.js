@@ -1,5 +1,5 @@
 import React from "react";
-import PolishedTwo from "../../assets/images/heroImages/hero6.jpg"
+import PolishedContact from "../../assets/images/PolishedContact.jpeg"
 import { Icon } from "@material-ui/core";
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
@@ -30,24 +30,21 @@ const Contact = () => {
   fontFamily: "regularFont", 
   lineHeight: "1.6rem", 
   letterSpacing: ".05em",  
-  paddingBottom: "10px", 
+  paddingBottom: "3px",
   color: "#706d6d",
   display: "flex",
   justifyContent: "left",
-  
+  border: "1px solid black",
+  paddingLeft: "5px",
+  paddingRight: "5px",
+  borderRadius: "5px",
+  width: "13.5%"
 }} >
-  Contact Us   <hr className="verticalLine" style={{
-    width: "4%",
-    height: "2px",
-    border: "1px solid #c3a6a0",
-    marginLeft: "1px",
-    marginTop: "1.9%"
-  }}
-  />
+  Contact Us
 </p>
   </div>
   <div className="my-cool-item" style={{ flex: 1, padding: "10px" }}>
-    <img src={PolishedTwo} alt="Your Image" style={{ width: "80%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
+    <img src={PolishedContact} alt="Your Image" style={{ width: "80%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
   </div>
 </div>
     

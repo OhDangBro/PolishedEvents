@@ -1,5 +1,5 @@
 import React from "react";
-import PolishedThree from "../../assets/images/PolishedThree.jpg"
+import PolishedService from "../../assets/images/PolishedContact.jpeg"
 import { Container } from "@mui/system";
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -47,25 +47,23 @@ const ServicesPage = () => {
   fontFamily: "regularFont", 
   lineHeight: "1.6rem", 
   letterSpacing: ".05em",  
-  paddingBottom: "10px", 
   color: "#706d6d",
   display: "flex",
-  justifyContent: "left",
-  paddingLeft: "28%"
-  
+  justifyContent: "center",
+  border: "1px solid black",
+  borderRadius: "5px",
+  margin: "auto",
+  width: "fit-content",
+  paddingBottom: "3px",
+  paddingRight: "5px",
+  paddingLeft: "5px",
+  marginLeft: "29%"
 }} >
-  Read More   <hr className="verticalLine" style={{
-    width: "3.5%",
-    height: "2px",
-    border: "1px solid #c3a6a0",
-    marginLeft: "1px",
-    marginTop: "2%",
-    
-  }}
-  /></p>
+  View More   
+</p>
       </div>
       <div className="my-cool-item" style={{ flex: 1, padding: "10px" }}>
-        <img src={PolishedThree} alt="event planning" style={{ width: "55%", boxShadow: "80px -60px 0px 0 #C3A6A0" }} />
+        <img src={PolishedService} alt="event planning" style={{ width: "55%", boxShadow: "80px -60px 0px 0 #C3A6A0" }} />
       </div>
     </div>
     </Container>

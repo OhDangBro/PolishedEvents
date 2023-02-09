@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import HeroThree from "../../assets/images/heroImages/flowerimg.webp"
+import HeroThree from "../../assets/images/heroImage.webp"
 
 const Hero = () => {
   const [index, setIndex] = useState(0);

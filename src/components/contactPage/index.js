@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import Contact from '../contact';
 import { Container } from "@mui/system";
 import CssBaseline from '@mui/material/CssBaseline';
-import PolishedTwo from "../../assets/images/PolishedTwo.jpeg"
+import PolishedContact from "../../assets/images/PolishedContact.jpeg"
 
 const ContactPage = () => {
     const [formData, setFormData] = useState({
@@ -66,7 +65,7 @@ const ContactPage = () => {
                                 </p>
                             </div>
                             <div className="my-cool-item" style={{ flex: 1, padding: "10px" }}>
-                                <img src={PolishedTwo} alt="Your Image" style={{ width: "100%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
+                                <img src={PolishedContact} alt="Your Image" style={{ width: "100%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
                             </div>
                         </div>
                     </div>

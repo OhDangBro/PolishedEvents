@@ -1,5 +1,5 @@
 import React from "react";
-import PolishedOne from "../../assets/images/PolishedOne.jpeg"
+import PolishedAbout from "../../assets/images/PolishedAbout.jpeg"
 import { Container } from "@mui/system";
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -27,24 +27,22 @@ const AboutPage = () => {
   fontFamily: "regularFont", 
   lineHeight: "1.6rem", 
   letterSpacing: ".05em",  
-  paddingBottom: "10px", 
+  paddingBottom: "5px",
   color: "#706d6d",
   display: "flex",
   justifyContent: "left",
-  
+  border: "1px solid black",
+  paddingLeft: "9px",
+  paddingRight: "5px",
+  borderRadius: "5px",
+  paddingTop: "2px",
+  width: "17.5%"
 }} >
-  Contact Us   <hr className="verticalLine" style={{
-    width: "5.5%",
-    height: "2px",
-    border: "1px solid #c3a6a0",
-    marginLeft: "1px",
-    marginTop: "3%"
-  }}
-  />
+  Read More  
 </p>
     </div>
       <div className="my-cool-item" style={{ flex: 1, padding: "10px", height: "100%", textAlign: "center", paddingTop: "20%" }}>
-        <img src={PolishedOne} alt="Your Image" style={{ width: "100%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
+        <img src={PolishedAbout} alt="Your Image" style={{ width: "100%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
       </div>
     </div>
     </Container>
