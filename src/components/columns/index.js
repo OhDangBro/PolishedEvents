@@ -10,16 +10,16 @@ const ThreeColumns = () => {
     return (
       <React.Fragment>
       <CssBaseline />
-      <Container maxWidth='xxl' >
+      <Container className="containerMUI" maxWidth='xxl' >
        <br></br>
    
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <br></br>
-          <div style={{ width: "70%", padding: "50px" }}><About/></div>
+          <div className="columnSection" style={{ width: "70%", padding: "50px" }}><About/></div>
         
-          <div style={{ width: "70%", padding: "50px" }}><Services/></div>
+          <div className="columnSection" style={{ width: "70%", padding: "50px" }}><Services/></div>
           <br></br>
-          <div style={{ width: "70%", padding: "50px" }}><Contact/></div>
+          <div className="columnSection" style={{ width: "70%", padding: "50px" }}><Contact/></div>
         </div>
         
       </Container>
