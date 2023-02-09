@@ -1,5 +1,5 @@
 import React from "react";
-import PolishedService from "../../assets/images/PolishedContact.jpeg"
+import PolishedService from "../../assets/images/PolishedService.jpg"
 import { Container } from "@mui/system";
 import CssBaseline from '@mui/material/CssBaseline';
 
