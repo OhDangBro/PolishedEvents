@@ -44,21 +44,15 @@ const ContactPage = () => {
     return (
         <React.Fragment>
             <CssBaseline />
-            <Container maxWidth='xxl'>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <Container className="contactContainer" maxWidth='xxl'>
+                <div id="ContactPage"  style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <br></br>
-                    <div style={{ width: "70%", padding: "50px" }}>
+                    <div className="contactPageTopSection" style={{ width: "70%", padding: "50px" }}>
                         <div style={{ display: "flex" }}>
                             <div style={{ flex: 1, padding: "10px" }}>
-                                <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", paddingTop: "60%" }}>
-                                    <h2 style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>C</h2>
-                                    <h2 style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>ontact Us</h2>
+                                <div className="headerRow" style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", paddingTop: "60%" }}>
+                                    <h2 className="cursiveH2 headerBigLetter" style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>C</h2>
+                                    <h2  className="cursiveH2" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>ontact Us</h2>
                                 </div>
                                 <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "70%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>
                                     Let us take care of the planning so that you can focus on what matters most.
@@ -71,9 +65,9 @@ const ContactPage = () => {
                     </div>
                     <br></br>
                  
-                    <div style={{ width: "70%", padding: "50px" }}>
-                        <div style={{ display: "flex" }}>
-                            <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", border: "1px solid #C3A6A0", padding: "10px", width: "45%", height: "80%", boxShadow: "-80px -60px 0px 0 #C3A6A0" }}>
+                    <div className="contactPageBottomSection" style={{ width: "70%", padding: "50px" }}>
+                        <div className="contactColumnReverse" style={{ display: "flex" }}>
+                            <form className="contactForm" onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", border: "1px solid #C3A6A0", padding: "10px", width: "45%", height: "80%", boxShadow: "-80px -60px 0px 0 #C3A6A0" }}>
                                 <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginBottom: "10px" }}>
                                     <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
                                         <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>First Name:</label>
@@ -210,9 +204,9 @@ const ContactPage = () => {
                             </form>
                             <div style={{ flex: 1, padding: "10px", marginLeft: "80px" }}>
                                 <div style={{ width: "80%", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                                    <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
-                                        <h2 style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>G</h2>
-                                        <h2 style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>et in Touch</h2>
+                                    <div className="headerRow" style={{ display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
+                                        <h2 className="cursiveH2 headerBigLetter" style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>G</h2>
+                                        <h2 className="cursiveH2 headerBigLetter" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>et in Touch</h2>
                                     </div>
                                 </div>
                             </div>

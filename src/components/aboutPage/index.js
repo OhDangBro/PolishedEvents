@@ -12,7 +12,7 @@ const AboutPage = () => {
     <div  style={{ display: "flex", alignItems: "center", height: "92h", justifyContent: "center" }}>
       <div className="aboutPageSet" style={{ flex: .8, paddingBottom: "250px", paddingRight: "200px", height: "100%", }}>
       <div className="headerRow" style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", width: "100%", paddingTop: "60%" }}>
-      <h2 className="cursiveH2" style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom:"40px", marginRight:"5px", textAlign: "center" }}>A</h2>
+      <h2 className="cursiveH2 headerBigLetter" style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom:"40px", marginRight:"5px", textAlign: "center" }}>A</h2>
       <h2 className="cursiveH2" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem", textAlign: "center" }}>bout</h2>
     </div>
     <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "100%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom:"10px", letterSpacing: ".05em", color:  "#706d6d", textAlign: "left" }}>

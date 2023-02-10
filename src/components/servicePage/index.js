@@ -13,8 +13,8 @@ const ServicesPage = () => {
       <div style={{ flex: 1, padding: "10px", marginLeft: "250px" }}>
       <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
           <div className="headerRow" style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", paddingRight: "30%" }}>
-            <h2 className="cursiveh2" style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>S</h2>
-            <h2 className="cursiveh2" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>ervices</h2>
+            <h2 className="cursiveh2 headerBigLetter" style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>S</h2>
+            <h2 className="cursiveh2 cursiveMobile" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>ervices</h2>
           </div>
           <p style={{  fontFamily: "regularFont", marginTop: "-30px", width: "100%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "#706d6d" }}>
             We offer a wide range of event services, including but not limited to: </p>      
