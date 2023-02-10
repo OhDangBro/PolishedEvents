@@ -35,51 +35,50 @@ code {
   display: none;
   cursor: pointer;
   font-size: 2em;
-}
-
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
   .hamburger {
-    display: block;
-    color: white;
-    background-color: transparent;
-    border: aliceblue;
+  display: block;
+  color: white;
+  background-color: transparent;
+  border: aliceblue;
   }
   
-
   .navbar-collapse {
-      height: 100%;
-      width: 100%;
-      background: #f2f2f2;
-      position: absolute;
-      top: 10%;
-      right: 0;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      display: none;
-    }
-    
-    .navLink {
-      color: white;
-      font-size: 30px;
-      margin: 1em 0;
-      text-align: center;
-    }
-
-  .show {
-    display: flex;
-    position: absolute;
-    top: 10%;
-    background: #edbec9;
-  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 0;
+  width: 0;
+  background: #f2f2f2;
+  position: absolute;
+  top: 10vh;
+  right: 0;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
-}
+  
+  .navLink {
+  color: white;
+  font-size: 30px;
+  margin: 1em 0;
+  text-align: center;
+  }
+  
+  .show {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  top: 0;
+  background: #edbec9;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  }
 
 
 
@@ -182,7 +181,14 @@ li {
     padding: 0 !important;
     width: 100% !important
   }
-  
+
+
+
+
+
+
+
+/* -------------------------Service Section ---------------------------------------- */
   #Service p {
     width: 165% !important;
     margin: 0 !important;
@@ -210,7 +216,7 @@ margin: 0 !important;
 
 }
 
-
+/* ---------------------------Contact Section-------------------------------------- */
 #Contact{
   margin: 0 !important;
   padding: 0 !important;
@@ -243,5 +249,86 @@ margin-top: 5%;
 .contactEmail {
   font-size: 1rem !important;
 }
+
+
+
+
+
+
+
+
+
+/* -------------------------Service Page--------------------------------------- */
+#ServicePage {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: contents !important;
+  height: 200% !important;
+}
+
+
+#ServicePage div {
+  margin: 0 !important;
+  padding: 0;
+  
+}
+
+#ServicePage li {
+  margin: 0 !important;
+  padding: 0;
+  flex-direction: column;
+  width: 100% !important;
+  font-size: .7rem !important;
+}
+
+#ServicePage .serviceListItems {
+  flex-direction: column;
+  width: 100% !important;
+
+}
+
+
+.headerRow {
+  flex-direction: row;
+  align-items: center;
+  padding-right: 0;
+}
+
+
+.servicePageListContainer {
+  flex-direction: initial;
+}
+
+
+
+
+
+
+
+/* --------------------------About Page--------------------------------------- */
+
+
+#AboutPage{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 80% !important;
+  padding: 5% !important;
+  width: 85% !important;
+}
+
+#AboutPage img {
+  width: 80% !important;
+  padding: 0 !important;
+}
+
+#AboutPage button {
+  width: 35% !important;
+}
+
+
+.aboutPageSet {
+  padding: 0 !important;
+}
+
 
 }

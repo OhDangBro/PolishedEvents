@@ -8,6 +8,10 @@ const Navbar = ({ handleClick }) => {
     setIsOpen(!isOpen);
   };
 
+  const closeNav = () => {
+    setIsOpen(false);
+  };
+
 
 
   
@@ -29,11 +33,11 @@ const Navbar = ({ handleClick }) => {
   </div>
       <button className="hamburger" onClick={toggleNav}>&#9776;</button>
       <div className={`navbar-collapse ${isOpen ? "show" : ""}`}>
-<a className="navLink" href="#Home" style={{ fontSize: "1.3rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px' }} onClick={() => handleClick('Home')}>Home</a>
-<a className="navLink" href="#Services" style={{ fontSize: "1rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px' }} onClick={() => handleClick('Services')}>Services</a>
-<a className="navLink" href="#About" style={{ fontSize: "1rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px' }} onClick={() => handleClick('About')}>About</a>
-<a className="navLink" href="#About" style={{ fontSize: "1rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px' }} onClick={() => handleClick('Gallery')}>Gallery</a>
-<a className="navLink" href="#Contact" style={{ fontSize: "1rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px', paddingRight: "100px" }} onClick={() => handleClick('Contact')}>Contact</a>
+<a className="navLink" href="#Home" style={{ fontSize: "1.3rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px' }} onClick={() => { handleClick('Home'); closeNav(); }}>Home</a>
+<a className="navLink" href="#Services" style={{ fontSize: "1rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px' }} onClick={() => { handleClick('Services'); closeNav(); }}>Services</a>
+<a className="navLink" href="#About" style={{ fontSize: "1rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px' }} onClick={() => { handleClick('About'); closeNav(); }}>About</a>
+<a className="navLink" href="#About" style={{ fontSize: "1rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px' }} onClick={() => { handleClick('Gallery'); closeNav(); }}>Gallery</a>
+<a className="navLink" href="#Contact" style={{ fontSize: "1rem", paddingRight:"5%", fontFamily: "regularFont", fontStyle: "italic", textDecoration: "none", marginTop: "0", width: "95%", lineHeight: "1.6rem", fontSize: "20px", letterSpacing: ".05em", color: "white", marginBottom: '20px', paddingRight: "100px" }} onClick={() => { handleClick('Contact'); closeNav(); }}>Contact</a>
       </div>
     </nav>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import PolishedAbout from "../../assets/images/PolishedAbout.jpeg"
 const About = ({handleClick}) => {
   return (
+    
 <div id="About"  style={{ display: "flex", alignItems: "center" }}>
   <div  style={{ flex: 1, paddingRight: "50px", height: "100%" }}>
     <div className="headerRow" style={{ display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
