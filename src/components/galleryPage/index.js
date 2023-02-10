@@ -54,10 +54,10 @@ const Gallery = () => {
 <React.Fragment>
 <CssBaseline />
 <Container maxWidth='xl'>
-<div style={{ padding: '100px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-<div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", paddingTop: "15%" }}>
-      <h2 style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>G</h2>
-      <h2 style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>allery</h2>
+<div id="Gallery" style={{ padding: '100px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+<div className="headerRow" style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", paddingTop: "15%" }}>
+      <h2 className="cursiveH2" style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>G</h2>
+      <h2 className="cursiveH2" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>allery</h2>
     </div>
 </div>
 <div style={{ padding: '100px' }}>

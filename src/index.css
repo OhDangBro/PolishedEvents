@@ -78,6 +78,10 @@ code {
   justify-content: center;
   align-items: center;
   }
+
+  .navIcon {
+    margin: 0 !important;
+  }
   }
 
 
@@ -328,6 +332,14 @@ margin-top: 5%;
 
 .aboutPageSet {
   padding: 0 !important;
+}
+
+
+
+/* ---------------------------------Gallery-------------------------------------------- */
+
+#Gallery img {
+  box-shadow: none !important;
 }
 
 
