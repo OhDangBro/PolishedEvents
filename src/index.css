@@ -82,6 +82,7 @@ code {
 
   .navIcon {
     margin: 0 !important;
+    left: 0 !important
   }
   }
 
@@ -393,9 +394,62 @@ label, input, button {
 
 /* ---------------------------------Gallery-------------------------------------------- */
 
-#Gallery img {
-  box-shadow: none !important;
+#Gallery {
+  padding: 0 !important;
 }
+
+.galleryPadding{
+  padding: 0px !important;
+}
+
+#Gallery img {
+  padding: 50% !important;
+  margin-top: 5px !important;
+}
+
+
+.galleryClickThroughImages {
+  max-height: 80vh !important;
+  max-width: 80vw !important;
+  box-shadow: none;
+  padding-bottom: 25%;
+}
+
+.prevButton,
+.closeButton,
+.nextButton {
+  position: absolute;
+  bottom: 0px;
+  margin-top: 5%;
+}
+.prevButton {
+  left: 20px;
+}
+.nextButton {
+  right: 20px;
+}
+
+.closeButton {
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center !important;
+  align-items: center !important;
+  width: 20% !important;
+  background: black;
+  color: white;
+  border-radius: 10%;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
 
 }
 

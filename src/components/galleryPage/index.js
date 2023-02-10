@@ -60,7 +60,7 @@ const Gallery = () => {
       <h2 className="cursiveH2" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>allery</h2>
     </div>
 </div>
-<div style={{ padding: '100px' }}>
+<div className="galleryPadding" style={{ padding: '100px' }}>
 <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
 <Masonry gutter="20px">
 {images.map((image, i) => (
@@ -91,13 +91,14 @@ bottom: 0,
 left: 0,
 }}
 >
-<img
+<img className="galleryClickThroughImages"
 src={data.img}
 style={{ width: 'auto', maxWidth: '30%', maxHeight: '90%' }}
 />
 
 <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
 <button
+className="prevButton"
   style={{
     background: 'black',
     color: 'white',
@@ -115,6 +116,7 @@ style={{ width: 'auto', maxWidth: '30%', maxHeight: '90%' }}
   &larr;
 </button>
   <button
+  className="closeButton"
     style={{
       background: 'white',
       color: 'black',
@@ -129,6 +131,7 @@ style={{ width: 'auto', maxWidth: '30%', maxHeight: '90%' }}
     Close
   </button>
   <button
+  className="nextButton"
     style={{
       background: 'black',
       color: 'white',
