@@ -16,11 +16,15 @@ const AboutPage = () => {
       <h2 className="cursiveH2" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem", textAlign: "center" }}>bout</h2>
     </div>
     <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "100%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom:"10px", letterSpacing: ".05em", color:  "#706d6d", textAlign: "left" }}>
-          Polished Events elevates events with their exceptional event design and planning services. With a focus on creating personalized and unforgettable experiences, we expertly attend to every detail and stay within budget. Let us help plan your next memorable occasion.
+    Introducing Tiana - the creative mind behind Polished Events!
         </p>
-        <p style={{ fontSize: "1rem", fontFamily: "regularFont", width: "100%", lineHeight: "1.6rem", fontSize: "16px", letterSpacing: ".05em", color:  "#706d6d", textAlign: "left" }}>
-          We are dedicated to delivering exceptional event design and planning services for all of life's special moments. We guarantee that your event will be nothing short of extraordinary.
+        <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "100%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom:"10px", letterSpacing: ".05em", color:  "#706d6d", textAlign: "left" }}>
+        Tiana discovered her passion for event planning in 2018 while organizing her own wedding. Her innate ability to craft unique and personalized celebrations left her feeling inspired and ignited a spark within to turn her hobby into a thriving business.
         </p>
+        <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "100%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom:"10px", letterSpacing: ".05em", color:  "#706d6d", textAlign: "left" }}>
+        Four years later, she continues to evolve and grow, driven by the thrill of bringing her clients' visions to life. For Tiana, there's no greater satisfaction than seeing the smile on her clients' faces when they see their dream event come to fruition.
+        </p>
+
         <button style={{ 
   fontSize: "1rem", 
   textAlign: "center", 

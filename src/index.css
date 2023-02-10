@@ -112,6 +112,7 @@ code {
     width: 85%;
     height: auto;
     margin-top: 40%;
+    margin-bottom: 1%;
     box-shadow: rgb(195 166 160) 60px -50px 0px 0px;
 }
 ul {
@@ -202,15 +203,12 @@ li {
 
   #Service .serviceListItems {
     flex-direction: row;
-    width: 220% !important;
-    padding-right: 10px !important;
-    padding-left: 10px !important;
-    margin-left: 15% !important;
+    width: 180% !important;
+    padding-left: 20%;
   }
 
   #Service li {
     font-size: .7rem !important;
-  
   }
 
 #Service img {
@@ -221,6 +219,7 @@ li {
     display: flex;
     margin: 0 !important;
     width: 55% !important;
+    margin-left: 15% !important;
 
 }
 
@@ -267,91 +266,38 @@ margin-top: 5%;
 
 
 /* -------------------------Service Page--------------------------------------- */
-#ServicePage {
-  margin: 0 !important;
-  padding: 0 !important;
-
-}
-
 
 #ServicePage div {
+  height: auto !important;
   margin: 0 !important;
-  
+  padding: 0!important;
+  padding-top: 5% !important;
+}
+
+.servicePageListContainer {
+  display: flex !important;
+  flex-direction: initial;
+  justify-content: center !important;
+  align-items: center;
+}
+
+#ServicePage p {
+  width: 100% !important;
 }
 
 #ServicePage li {
-
-    width: 110% !important;
-    padding-bottom: 10px;
-    font-size: .7rem !important;
-  
-}
-
-#ServicePage .serviceListItems {
-  display: flex;
-    flex-direction: column;
-    align-items: flex;
-    padding-left: 7% !important;
-    justify-content: center;
-    margin-right: 0;
-}
-
-
-#ServicePage .headerRow {
-  
-  align-items: center;
-  justify-content: center;
-  margin-right: 0;
-padding-right: 0% !important;
-padding-top: 30%;
-
-}
-
-#ServicePage h2.cursiveH2 {
-  margin: 0 !important;
-  font-size: 4rem !important;
-}
-
-
-
-
-#ServicePage p {
-  width: 90% !important;
+  font-size: .7rem !important;
+  margin: 0px 20px;
+  overflow: hidden !important;
+  width: 100% !important;
 }
 
 #ServicePage img {
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-  box-shadow: rgb(195 166 160) 60px -50px 0px 0px;
-  transform: scale(.6);
-
+  margin-left: 50px;
+  padding-bottom: 10px;
+  margin-top: 70px !important;
 }
 
-.headerRow {
-  flex-direction: row;
-  align-items: center;
-  padding-right: 0;
-}
-
-div.servicePageListContainer {
-  padding-top: 0 !important;
-}
-
-
-.servicePageListContainer {
-  flex-direction: initial;
-  padding: 0 !important;
-}
-
-.cursiveMobile {
-  font-size: 4rem !important;
-}
-
-.servicePageTop {
-  padding-top: 15%;
-}
 
 
 
@@ -451,29 +397,18 @@ label, input, button {
   box-shadow: none !important;
 }
 
-
-
-
-
-
-
-
-footer    {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding: 0.5em;
-background-color: rgb(195, 166, 160);
-height: 7vh;
-position: fixed;
-bottom: 0;
-width: 100vw;
 }
 
 
-}
 
 
+
+
+
+  
+
+  
+
+  
 
 

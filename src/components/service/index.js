@@ -28,8 +28,8 @@ const Services = () => {
             <li style={{ fontSize: ".9rem", fontFamily: "regularFont", marginTop: "0", width: "120%", lineHeight: "1.6rem", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>Day of Coordinating</li>
             <li style={{ fontSize: ".9rem", fontFamily: "regularFont", marginTop: "0", width: "120%", lineHeight: "1.6rem", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>Engagement Parties</li>
 
-            </ul>
-            <ul style={{ flex: 1, padding: "5px" }}>
+            </ul >
+            <ul className="serviceListLeft" style={{ flex: 1, padding: "5px" }}>
             <li style={{ fontSize: ".9rem", fontFamily: "regularFont", marginTop: "0", width: "120%", lineHeight: "1.6rem", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>Fundraisers</li>
             <li style={{ fontSize: ".9rem", fontFamily: "regularFont", marginTop: "0", width: "120%", lineHeight: "1.6rem", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>Graduation</li>
               <li style={{ fontSize: ".9rem", fontFamily: "regularFont", marginTop: "0", width: "120%", lineHeight: "1.6rem", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>Sweet Sixteen</li>
