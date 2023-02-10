@@ -15,7 +15,7 @@ const Services = () => {
           </div>
           <p style={{ fontSize: "1.5rem", fontFamily: "regularFont", marginTop: "-30px", width: "100%", lineHeight: "1.6rem", fontSize: "16px", letterSpacing: ".05em", color: "#706d6d" }}>
             We offer a wide range of event services, including but not limited to: </p>      
-            <div className="serviceListItems" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", width: "100%", paddingRight: "11%"  }}>
+            <div className="serviceListItemsMain" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", width: "100%", paddingRight: "11%"  }}>
             <ul style={{ flex: 1, padding: "px",  }}>
             <li style={{ fontSize: ".9rem", fontFamily: "regularFont", marginTop: "0", width: "120%", lineHeight: "1.6rem", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>Baby Showers</li>
               <li style={{ fontSize: ".9rem", fontFamily: "regularFont", marginTop: "0", width: "120%", lineHeight: "1.6rem", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>Baptisms</li>

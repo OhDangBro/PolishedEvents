@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -14,6 +15,7 @@ code {
 
 * {
   font-family: Arial;
+  
  }
 
 @font-face {
@@ -133,7 +135,6 @@ li {
 }
 
 
-  
 .headerRow {
     flex-direction: row;
   }
@@ -170,7 +171,7 @@ li {
     flex-direction: column-reverse;
     margin: 0 !important;
     padding: 0 !important;
-    width: 85% !important
+    width: 100% !important
   }
 
   #About{
@@ -197,19 +198,25 @@ li {
 
 /* -------------------------Service Section ---------------------------------------- */
   #Service p {
-    width: 165% !important;
+    width: 150% !important;
     margin: 0 !important;
     padding: 0 !important;
+    margin-right: 40% !important;
   }
 
-  #Service .serviceListItems {
+  #Service .serviceListItemsMain {
     flex-direction: row;
-    width: 180% !important;
-    padding-left: 20%;
+    width: 150% !important;
+    overflow:  hidden !important;
+    justify-content: space-between !important;
+    margin-right: 10% !important;
+    padding-left: 5% !important;
   }
 
   #Service li {
-    font-size: .7rem !important;
+    font-size: .55rem !important;
+    width: 100% !important;
+   
   }
 
 #Service img {
@@ -220,7 +227,7 @@ li {
     display: flex;
     margin: 0 !important;
     width: 55% !important;
-    margin-left: 15% !important;
+    margin-left: 0% !important;
 
 }
 
@@ -289,7 +296,6 @@ margin-top: 5%;
 #ServicePage li {
   font-size: .7rem !important;
   margin: 0px 20px;
-  overflow: hidden !important;
   width: 100% !important;
 }
 
