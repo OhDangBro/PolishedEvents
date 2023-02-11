@@ -198,7 +198,21 @@ const ContactPage = () => {
                                         />
                                     </div>
                                 </div>
-                                <button type="submit" style={{ padding: "10px" }}>
+                                <button type="submit" style={{ padding: "10px",   fontSize: "1rem", 
+  textAlign: "center", 
+  fontFamily: "regularFont", 
+  lineHeight: "1.6rem", 
+  letterSpacing: ".05em",  
+  paddingBottom: "5px",
+  color: "#706d6d",
+  display: "flex",
+  justifyContent: "left",
+  border: "1px solid black",
+  paddingLeft: "9px",
+  paddingRight: "5px",
+  borderRadius: "5px",
+  paddingTop: "2px",
+  width: "17.5%" }}>
                                     Submit
                                 </button>
                             </form>

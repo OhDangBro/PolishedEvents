@@ -107,7 +107,7 @@ code {
 
 /* about ------- */
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   div {
     flex-direction: column;
   }
@@ -185,19 +185,28 @@ li {
 }
 
 .heroBigText {
-  padding-top: 20%;
+  display: inline-block;
+  padding-top: 75%;
   padding: 0 !important;
- font-size: 70px !important;
- width: 200%;
+ font-size: 75px !important;
+ width: 100%;
  margin: 0 !important;
- padding-right: 45% !important;
- padding-bottom: 90px !important;
+ padding-bottom: 40px !important;
  color: black !important;
  font-weight: 600 !important;
+ line-height: 4rem !important;
 }
 
+
+
 .heroSmallText {
-display: none;
+font-size: .8rem !important;
+color: black !important;
+font-weight: 600;
+width: 150% !important;
+padding-right: 45%;
+line-height: 1rem !important;
+
   
 
 }
