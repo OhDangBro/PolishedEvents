@@ -42,6 +42,7 @@ const Contact = ({handleClick}) => {
 }} 
 onClick={() => { handleClick('Contact');}}
 
+
 >
   Contact Us
 </button>

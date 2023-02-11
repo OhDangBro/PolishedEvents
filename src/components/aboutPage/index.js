@@ -41,7 +41,9 @@ const AboutPage = ({handleClick}) => {
   borderRadius: "5px",
   paddingTop: "2px",
   width: "17.5%"
-}} >
+}}
+onClick={() => { handleClick('Contact');}}
+>
   Read More  
 </button>
     </div>

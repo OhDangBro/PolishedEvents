@@ -3,7 +3,7 @@ import PolishedService from "../../assets/images/PolishedService.jpeg"
 import { Container } from "@mui/system";
 import CssBaseline from '@mui/material/CssBaseline';
 
-const ServicesPage = () => {
+const ServicesPage = ({handleClick}) => {
   return (
     <React.Fragment>
     <CssBaseline />
@@ -58,7 +58,9 @@ const ServicesPage = () => {
   paddingRight: "5px",
   paddingLeft: "5px",
   marginLeft: "29%"
-}} >
+}} 
+onClick={() => { handleClick('Gallery');}}
+>
   View More   
 </button>
       </div>

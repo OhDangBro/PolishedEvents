@@ -15,11 +15,11 @@ const ThreeColumns = ({handleClick}) => {
    
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <br></br>
-          <div className="columnSection" style={{ width: "70%", padding: "50px" }}><About/></div>
+          <div className="columnSection" style={{ width: "70%", padding: "50px" }}><About handleClick={handleClick}/></div>
         
-          <div className="columnSection" style={{ width: "70%", padding: "50px" }}><Services/></div>
+          <div className="columnSection" style={{ width: "70%", padding: "50px" }}><Services handleClick={handleClick} /></div>
           <br></br>
-          <div className="columnSection" style={{ width: "70%", padding: "50px" }}><Contact/></div>
+          <div className="columnSection" style={{ width: "70%", padding: "50px" }}><Contact handleClick={handleClick} /></div>
         </div>
         
       </Container>

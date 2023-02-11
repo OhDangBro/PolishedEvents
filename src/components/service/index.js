@@ -55,7 +55,7 @@ const Services = ({handleClick}) => {
   paddingLeft: "5px",
   marginLeft: "32%"
 }} 
-
+onClick={() => { handleClick('Services');}}
 >
   View More   
 </button>

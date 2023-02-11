@@ -12,23 +12,23 @@ import Gallery from './components/galleryPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
-  const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => setCurrentPage(page); window.scrollTo({ top: 0, behavior: 'smooth' });
   const renderPage = () => {
    
     if (currentPage === "Home") {
       return <LandingPage currentPage={currentPage} handleClick={handlePageChange}/>;
     }
     if (currentPage === "About") {
-      return <AboutPage />;
+      return <AboutPage handleClick={handlePageChange}  />;
     }
     if (currentPage === "Services") {
-      return <ServicesPage />;
+      return <ServicesPage handleClick={handlePageChange} />;
     }
     if (currentPage === "Contact") {
-      return <ContactPage />;
+      return <ContactPage handleClick={handlePageChange} />;
     }
     if (currentPage === "Gallery") {
-      return <Gallery />;
+      return <Gallery  handleClick={handlePageChange} />;
     }
   };
 

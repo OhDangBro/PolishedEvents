@@ -18,7 +18,7 @@ import galleryImageTwelve from "../../assets/images/GalleryImages/GalleryTwelve.
 
 const images = [  galleryImageOne,  galleryImageTwo,  galleryImageThree,  galleryImageFour,  galleryImageFive, galleryImageSix, galleryImageSeven, galleryImageEight, galleryImageNine, galleryImageTen, galleryImageEleven, galleryImageTwelve];
 
-const Gallery = () => {
+const Gallery = ({handeClick}) => {
   const [data, setData] = useState({ img: '', i: 0 });
 
   const viewImage = (img, i) => {
