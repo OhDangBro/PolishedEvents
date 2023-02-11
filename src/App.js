@@ -19,10 +19,10 @@ function App() {
       return <LandingPage currentPage={currentPage} handleClick={handlePageChange}/>;
     }
     if (currentPage === "About") {
-      return <AboutPage handleClick={handlePageChange} />;
+      return <AboutPage />;
     }
     if (currentPage === "Services") {
-      return <ServicesPage handleClick={handlePageChange} />;
+      return <ServicesPage />;
     }
     if (currentPage === "Contact") {
       return <ContactPage />;

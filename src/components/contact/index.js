@@ -4,7 +4,7 @@ import { Icon } from "@material-ui/core";
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
-const Contact = () => {
+const Contact = ({handleClick}) => {
   return (
  <div id="Contact" style={{ display: "flex" }}>
   <div style={{ flex: 1, padding: "10px" }}>
@@ -39,7 +39,10 @@ const Contact = () => {
   paddingRight: "5px",
   borderRadius: "5px",
   width: "13.5%"
-}} >
+}} 
+onClick={() => { handleClick('Contact');}}
+
+>
   Contact Us
 </button>
   </div>

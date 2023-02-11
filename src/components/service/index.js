@@ -1,7 +1,7 @@
 import React from "react";
 import PolishedThree from "../../assets/images/30birthday.JPG"
 
-const Services = () => {
+const Services = ({handleClick}) => {
   return (
     <div id="Service" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div className="my-cool-item" style={{ flex: 1, padding: "10px" }}>
@@ -54,7 +54,9 @@ const Services = () => {
   paddingRight: "5px",
   paddingLeft: "5px",
   marginLeft: "32%"
-}} >
+}} 
+
+>
   View More   
 </button>
       </div>

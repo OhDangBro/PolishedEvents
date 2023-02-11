@@ -3,7 +3,7 @@ import PolishedAbout from "../../assets/images/PolishedAbout.jpeg"
 import { Container } from "@mui/system";
 import CssBaseline from '@mui/material/CssBaseline';
 
-const AboutPage = () => {
+const AboutPage = ({handleClick}) => {
   return (
     <React.Fragment>
     <CssBaseline />
