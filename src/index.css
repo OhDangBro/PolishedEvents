@@ -99,6 +99,12 @@ code {
 
 
 
+#ContactPage img {
+  margin-top: 25%;
+  height: 80%;
+}
+
+
 /* about ------- */
 
 @media (max-width: 768px) {
@@ -184,7 +190,7 @@ li {
  font-size: 70px !important;
  width: 200%;
  margin: 0 !important;
- padding-right: 42% !important;
+ padding-right: 45% !important;
  padding-bottom: 90px !important;
  color: black !important;
  font-weight: 600 !important;
@@ -443,6 +449,10 @@ label, input, button {
 
 .galleryPadding{
   padding: 0px !important;
+}
+
+.galleryPaddingHeader{
+  padding-top: 30% !important;
 }
 
 #Gallery img {
