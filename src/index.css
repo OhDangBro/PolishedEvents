@@ -192,7 +192,7 @@ li {
  width: 100%;
  margin: 0 !important;
  padding-bottom: 40px !important;
- color: black !important;
+ color: rgb(255, 255, 255) !important;
  font-weight: 600 !important;
  line-height: 4rem !important;
 }
@@ -201,7 +201,7 @@ li {
 
 .heroSmallText {
 font-size: .8rem !important;
-color: black !important;
+color: rgb(255, 255, 255) !important;
 font-weight: 600;
 width: 150% !important;
 padding-right: 45%;
