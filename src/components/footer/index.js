@@ -7,6 +7,12 @@ import EmailIcon from '@mui/icons-material/Email';
 const Footer = ({handleClick}) => {
   const year = new Date().getFullYear();
 
+  function handleEmailClick() {
+    window.location.href = "mailto:polishedeventsco1@gmail.com";
+  }
+
+
+
   return (
 <footer style={{
   display: 'flex',
@@ -19,9 +25,11 @@ const Footer = ({handleClick}) => {
 }}>
   <div> <Icon style={{ fontSize: "small", color: "white" }}>
       <FacebookIcon />
-    </Icon> <Icon style={{ fontSize: "small", color: "white" }}>
+    </Icon> 
+    <Icon style={{ fontSize: "small", color: "white" }} onClick={handleEmailClick}>
       <EmailIcon />
-    </Icon> <Icon style={{ fontSize: "small", color: "white" }}>
+    </Icon> 
+    <Icon style={{ fontSize: "small", color: "white" }}>
       <InstagramIcon />
     </Icon></div>
     <div style={{ color: "white", fontSize: "15px" }}>

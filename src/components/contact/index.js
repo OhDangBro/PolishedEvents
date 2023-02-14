@@ -5,6 +5,12 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
 const Contact = ({handleClick}) => {
+
+  function handleEmailClick() {
+    window.location.href = "mailto:polishedeventsco1@gmail.com";
+  }
+
+
   return (
  <div id="Contact" style={{ display: "flex" }}>
   <div style={{ flex: 1, padding: "10px" }}>
@@ -17,13 +23,16 @@ const Contact = ({handleClick}) => {
     If you're located in New Jersey, New York, or Pennsylvania,  let's connect and bring your vision to life. Our team is eager to partner with you and create a once-in-a-lifetime celebration that will leave a lasting impression.
     </p>
     <p className="contactNumber" style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "70%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom: "0px", letterSpacing: ".05em", color: "#706d6d" }}>
+    <a href="tel:9734578257" style={{ color: "#706d6d", textDecoration: "none" }}>
     <Icon style={{ fontSize: "small", color: "black" }}>
       <LocalPhoneIcon />
-    </Icon> 732-555-5555    </p> 
+    </Icon> 973-457-8257</a> </p> 
+    <span onClick={handleEmailClick} >
 <p className="contactEmail" style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "70%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom: "0px", letterSpacing: ".05em", color: "#706d6d" }}>
 <Icon style={{ fontSize: "small" }}>
-      <EmailIcon  />
+      <EmailIcon />
     </Icon> polishedeventsco1@gmail.com   </p>
+    </span>
     <button style={{ 
   fontSize: "1rem", 
   textAlign: "center", 

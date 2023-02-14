@@ -14,7 +14,8 @@ const ContactPage = () => {
         eventcity: '',
         guests: '',
         budget: '',
-    });
+        eventtype: '',
+        message: '',    });
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -24,7 +25,7 @@ const ContactPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+        emailjs.sendForm('service_09su88o', 'template_h1ju2pc', e.target, '2N7prBIjrBvk-XhUY')
             .then((result) => {
                 console.log(result.text);
                 setFormData({
@@ -35,6 +36,8 @@ const ContactPage = () => {
                     eventcity: '',
                     guests: '',
                     budget: '',
+                    eventtype: '',
+                    message: '',
                 });
             }, (error) => {
                 console.log(error.text);
@@ -54,12 +57,12 @@ const ContactPage = () => {
                                     <h2 className="cursiveH2 headerBigLetter" style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>C</h2>
                                     <h2  className="cursiveH2" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>ontact Us</h2>
                                 </div>
-                                <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "70%", lineHeight: "1.6rem", fontSize: "16px", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>
+                                <p style={{ fontSize: "1rem", fontFamily: "regularFont", marginTop: "0", width: "70%", lineHeight: "1.6rem", paddingBottom: "10px", letterSpacing: ".05em", color: "#706d6d" }}>
                                     Let us take care of the planning so that you can focus on what matters most.
                                 </p>
                             </div>
                             <div className="my-cool-item" style={{ flex: 1, padding: "10px" }}>
-                                <img src={PolishedContact} alt="Your Image" style={{ width: "80%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
+                                <img src={PolishedContact} alt="White roses event planning New Jersey" style={{ width: "80%", boxShadow: "80px -80px 0px 0 #C3A6A0" }} />
                             </div>
                         </div>
                     </div>
@@ -136,7 +139,7 @@ const ContactPage = () => {
                                 </div>
                                 <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginBottom: "10px" }}>
                                     <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
-                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Event Date</label>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Event Date:</label>
                                         <input
                                             type="date"
                                             name="eventdate"
@@ -148,6 +151,7 @@ const ContactPage = () => {
                                                 fontFamily: "regularFont",
                                                 textAlign: "center",
                                             }}
+                                            className="eventDateInput"
                                         />
                                     </div>
                                     <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
@@ -168,7 +172,7 @@ const ContactPage = () => {
                                 </div>
                                 <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginBottom: "10px" }}>
                                     <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
-                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Number Of Guests:</label>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Guest Count:</label>
                                         <input
                                             type="number"
                                             name="guests"
@@ -195,9 +199,43 @@ const ContactPage = () => {
                                                 fontFamily: "regularFont",
                                                 textAlign: "center",
                                             }}
+                                            className="contactBudgetInput"
                                         />
                                     </div>
                                 </div>
+                                <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginBottom: "10px" }}>
+                                    <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Event Type:</label>
+                                        <input
+                                            type="text"
+                                            name="eventtype"
+                                            value={formData.eventtype}
+                                            onChange={handleChange}
+                                            style={{
+                                                padding: "10px",
+                                                fontSize: "1rem",
+                                                fontFamily: "regularFont",
+                                                textAlign: "center",
+                                            }}
+                                        />
+                                    </div>
+                                    <div style={{ display: "flex", flexDirection: "column", width: "48%" }}>
+                                        <label style={{ fontSize: "0.8rem", marginBottom: "5px" }}>Message:</label>
+                                        <input
+                                            type="text"
+                                            name="message"
+                                            value={formData.message}
+                                            onChange={handleChange}
+                                            style={{
+                                                padding: "10px",
+                                                fontSize: "1rem",
+                                                fontFamily: "regularFont",
+                                                textAlign: "center",
+                                            }}
+                                        />
+                                    </div>
+                                </div>
+                                
                                 <button type="submit" style={{ padding: "10px",   fontSize: "1rem", 
   textAlign: "center", 
   fontFamily: "regularFont", 
@@ -212,7 +250,8 @@ const ContactPage = () => {
   paddingRight: "5px",
   borderRadius: "5px",
   paddingTop: "2px",
-  width: "17.5%" }}>
+  width: "17.5%" }}
+  className="contactFormButton">
                                     Submit
                                 </button>
                             </form>
