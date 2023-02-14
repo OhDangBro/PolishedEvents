@@ -33,7 +33,8 @@ const Contact = ({handleClick}) => {
       <EmailIcon />
     </Icon> polishedeventsco1@gmail.com   </p>
     </span>
-    <button style={{ 
+    <button
+    className="contactButton" style={{ 
   fontSize: "1rem", 
   textAlign: "center", 
   fontFamily: "regularFont", 
