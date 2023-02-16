@@ -107,7 +107,347 @@ code {
 
 /* about ------- */
 
-@media (max-width: 1000px) {
+
+
+
+
+
+@media all and (min-width: 2000px) and (max-width: 2500px) { 
+
+  .heroBigText {
+    padding-top: 40px !important;
+    margin-right: 50% !important;
+    width: 140% !important; 
+    font-size: 10rem !important;
+  }
+  .heroSmallText {
+    padding-top: -5% !important;
+width: 100% !important;
+  }
+}
+
+@media all and (min-width: 1800px) and (max-width: 2000px) { 
+
+  .heroBigText {
+    padding-top: 100px !important;
+    width: 150% !important; 
+    font-size: 10rem !important;
+  }
+  .heroSmallText {
+    padding-top: -5% !important;
+width: 100% !important;
+  }
+}
+
+
+
+  
+@media all and (min-width: 1500px) and (max-width: 1800px) { 
+
+  .aboutButton {
+    width: 21.5% !important;
+  }
+
+  .contactButton {
+    width: 21.5% !important;
+  }
+
+  .columnSection {
+    transform: scale(.9) !important;
+  }
+
+  .serviceListItemsMain {
+    width: 165% !important;
+  }
+
+  .heroBigText {
+    padding-top: 170px !important;
+    width: 150% !important; 
+    font-size: 9rem !important;
+  }
+  .heroSmallText {
+
+  width: 90% !important;
+  font-size: 1.2rem !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media all and (min-width: 1280px) and (max-width: 1500px) { 
+
+  .columnSection {
+    transform: scale(.9) !important;
+  }
+
+  .serviceListItemsMain {
+    width: 165% !important;
+  }
+
+  .heroBigText {
+    padding-top: 300px !important;
+    width: 150% !important
+  }
+
+  .contactLeft {
+    position: relative;
+    top: -300px !important;
+  } 
+
+  #Contact {
+    padding-top: 15%;
+  }
+
+  .contactButton {
+    width: 25.5% !important;
+}
+
+.aboutButton {
+  width: 26.5% !important;
+}
+
+.servicePageListContainer {
+  width: 140% !important;
+}
+
+}
+
+
+  
+/* @media all and (min-width: 1000px) and (max-width: 1280px) {
+
+
+  .heroBigText {
+    padding-top: 350px !important;
+    padding-right: 400px;
+   justify-content: center;
+    width: 150% !important
+  }
+
+  .serviceListItemsMain {
+    width: 185% !important;
+  }
+
+  li {
+    font-size: .7rem !important;
+  }
+ #About p {
+  font-size: .8rem !important;
+ }
+
+.cursiveH2 {
+  font-size: 4rem !important;
+}
+
+.headerBigLetter {
+  font-size: 6rem !important;
+ }
+
+ .aboutButton {
+  width: 35% !important;
+ }
+
+
+
+.contactLeft {
+  position: relative;
+  top: -300px !important;
+} 
+
+#Contact {
+  padding-top: 15%;
+}
+
+.contactButton {
+  width: 28.5% !important;
+}
+
+.aboutButton {
+width: 29.5% !important;
+}
+
+.columnSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceListItemsMain {
+  width: 100% !important;
+}
+
+
+
+ } */
+
+
+
+
+
+
+
+@media all and (min-width: 1000px) and (max-width: 1280px) {
+  .heroLayout {
+    position: relative;
+  }
+  
+  .heroBigText {
+    font-size: 7rem !important;
+    display: inline-block;
+    padding-bottom: 0 !important;
+    color: black !important;
+    padding-top: 90%;
+    font-weight: 600 !important;
+    line-height: 5rem !important;
+  }
+  
+  
+  
+  .heroSmallText {
+  font-size: 1rem !important;
+  color: rgb(195 166 160) !important;
+  font-weight: 600;
+  width: 160% !important;
+  line-height: 1rem !important;
+  position: relative;
+  bottom: -50px !important;
+  left: -75px;
+  }
+
+  .columnSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceListItemsMain {
+    width: 100% !important;
+  }
+
+  li {
+    font-size: .7rem !important;
+    width: 100% !important;
+  }
+  p{
+    font-size: .9rem !important;
+  }
+
+  #Service li {
+    font-size: .55rem !important;
+    width: 100% !important;
+}
+
+.columnSection {
+  width: 100% !important;
+}
+
+.contactLeft{
+position: relative;
+top: -250px;
+}
+
+.contactButton {
+  width: 23% !important;
+}
+
+.servicePageMobile {
+  margin-left: 100px !important;
+}
+
+
+
+ }
+
+ @media all and (min-width: 768px) and (max-width: 1000px) {
+  .heroLayout {
+    position: relative;
+  }
+  
+  .heroBigText {
+    font-size: 7rem !important;
+    display: inline-block;
+    padding-bottom: 0 !important;
+    color: black !important;
+    padding-top: 90%;
+    font-weight: 600 !important;
+    line-height: 5rem !important;
+  }
+  
+  
+  
+  .heroSmallText {
+  font-size: 1rem !important;
+  color: rgb(195 166 160) !important;
+  font-weight: 600;
+  width: 160% !important;
+  line-height: 1rem !important;
+  position: relative;
+  bottom: -50px !important;
+  left: -75px;
+  }
+
+  .columnSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceListItemsMain {
+    width: 100% !important;
+  }
+
+  li {
+    font-size: .9rem !important;
+    width: 100% !important;
+  }
+  p{
+    font-size: .9rem !important;
+  }
+
+  #Service li {
+    font-size: .6rem !important;
+    width: 100% !important;
+}
+
+.columnSection {
+  width: 100% !important;
+}
+
+.contactLeft{
+position: relative;
+top: -250px;
+}
+
+.contactButton {
+  width: 23% !important;
+}
+.aboutButton {
+  width: 27% !important;
+}
+
+.servicePageListContainer {
+  width: 140% !important;
+}
+
+#ServicePage li {
+  font-size: .7rem !important;
+}
+
+.servicePageMobile {
+  margin-left: 100px !important;
+}
+
+
+ }
+
+
+ @media (max-width: 768px) {
   div {
     flex-direction: column;
   }
@@ -523,192 +863,10 @@ label, input, button {
 
 
 
-@media all and (min-width: 2000px) and (max-width: 2500px) { 
-
-  .heroBigText {
-    padding-top: 40px !important;
-    margin-right: 50% !important;
-    width: 140% !important; 
-    font-size: 10rem !important;
-  }
-  .heroSmallText {
-    padding-top: -5% !important;
-width: 100% !important;
-  }
-}
-
-@media all and (min-width: 1800px) and (max-width: 2000px) { 
-
-  .heroBigText {
-    padding-top: 100px !important;
-    width: 150% !important; 
-    font-size: 10rem !important;
-  }
-  .heroSmallText {
-    padding-top: -5% !important;
-width: 100% !important;
-  }
-}
-
-
-
-  
-@media all and (min-width: 1500px) and (max-width: 1800px) { 
-
-  .aboutButton {
-    width: 21.5% !important;
-  }
-
-  .contactButton {
-    width: 21.5% !important;
-  }
-
-  .columnSection {
-    transform: scale(.9) !important;
-  }
-
-  .serviceListItemsMain {
-    width: 165% !important;
-  }
-
-  .heroBigText {
-    padding-top: 170px !important;
-    width: 150% !important; 
-    font-size: 9rem !important;
-  }
-  .heroSmallText {
-
-  width: 90% !important;
-  font-size: 1.2rem !important;
-  }
-
-}
 
 
 
 
-
-
-
-
-@media all and (min-width: 1280px) and (max-width: 1500px) { 
-
-  .aboutButton {
-    width: 22.5% !important;
-  }
-
-  .contactButton {
-    width: 21.5% !important;
-  }
-
-  .columnSection {
-    transform: scale(.9) !important;
-  }
-
-  .serviceListItemsMain {
-    width: 165% !important;
-  }
-
-  .heroBigText {
-    padding-top: 300px !important;
-    width: 150% !important
-  }
-
-}
-
-
-  
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-
-
-  .heroBigText {
-    padding-top: 350px !important;
-    padding-right: 400px;
-   justify-content: center;
-    width: 150% !important
-  }
-
-  .serviceListItemsMain {
-    width: 185% !important;
-  }
-
-  li {
-    font-size: .7rem !important;
-  }
- #About p {
-  font-size: .8rem !important;
- }
-
-.cursiveH2 {
-  font-size: 4rem !important;
-}
-
-.headerBigLetter {
-  font-size: 6rem !important;
- }
-
- .aboutButton {
-  width: 35% !important;
- }
-
-
-
-
- }
-
-
-
-
-
-
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-  .heroLayout {
-    position: relative;
-  }
-  
-  .heroBigText {
-    font-size: 7rem !important;
-    display: inline-block;
-    padding-bottom: 0 !important;
-    color: black !important;
-    padding-top: 90%;
-    font-weight: 600 !important;
-    line-height: 5rem !important;
-  }
-  
-  
-  
-  .heroSmallText {
-  font-size: 1rem !important;
-  color: rgb(195 166 160) !important;
-  font-weight: 600;
-  width: 160% !important;
-  line-height: 1rem !important;
-  position: relative;
-  bottom: -40px !important;
-  left: -75px;
-  }
-
-.columnSection {
-  transform: scale(.9) !important;
-}
-
-
- }
-
-
-
-
-
-
-
-
-
-
-@media all and (min-width: 480px) and (max-width: 768px) { }
-
-@media all and (max-width: 480px) { }
   
 
 

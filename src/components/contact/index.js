@@ -13,7 +13,7 @@ const Contact = ({handleClick}) => {
 
   return (
  <div id="Contact" style={{ display: "flex" }}>
-  <div style={{ flex: 1, padding: "10px" }}>
+  <div className="contactLeft" style={{ flex: 1, padding: "10px" }}>
     <div className="headerRow" style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", paddingTop: "25%" }}>
       <h2 className="cursiveH2 headerBigLetter" style={{ fontSize: "8rem", fontStyle: "italic", fontFamily: "cursiveFont", fontWeight: "lighter", margin: "0", lineHeight: "2.6rem", paddingBottom: "40px", marginRight: "5px" }}>C</h2>
       <h2 className="cursiveH2" style={{ fontSize: "6rem", fontFamily: "cursiveFont", fontStyle: "italic", fontWeight: "lighter", lineHeight: "2.6rem" }}>ontact Us</h2>
