@@ -1,5 +1,5 @@
 import React from "react";
-import PolishedContact from "../../assets/images/PolishedContact.jpeg"
+import PolishedContact from "../../assets/images/PolishedContact.jpg"
 import { Icon } from "@material-ui/core";
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
