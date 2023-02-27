@@ -14,9 +14,13 @@ import galleryImageNine from "../../assets/images/GalleryImages/GalleryNine.jpg"
 import galleryImageTen from "../../assets/images/GalleryImages/GalleryTen.jpg"
 import galleryImageEleven from "../../assets/images/GalleryImages/GalleryEleven.JPG"
 import galleryImageTwelve from "../../assets/images/GalleryImages/GalleryTwelve.jpg"
+import galleryImageThirteen from "../../assets/images/GalleryImages/GalleryThirteen.jpg"
+import galleryImageFourteen from "../../assets/images/GalleryImages/GalleryFourteen.jpg"
+import galleryImageFifteen from "../../assets/images/GalleryImages/GalleryFifteen.JPG"
+import galleryImageSixteen from "../../assets/images/GalleryImages/GallerySixteen.jpg"
 
 
-const images = [  galleryImageOne,  galleryImageTwo,  galleryImageThree,  galleryImageFour,  galleryImageFive, galleryImageSix, galleryImageSeven, galleryImageEight, galleryImageNine, galleryImageTen, galleryImageEleven, galleryImageTwelve];
+const images = [  galleryImageOne,  galleryImageTwo,  galleryImageThree,  galleryImageFour,  galleryImageFive, galleryImageSix, galleryImageSeven, galleryImageEight, galleryImageNine, galleryImageTen, galleryImageEleven, galleryImageTwelve, galleryImageThirteen, galleryImageFourteen, galleryImageFifteen, galleryImageSixteen];
 
 const Gallery = ({handeClick}) => {
   const [data, setData] = useState({ img: '', i: 0 });
