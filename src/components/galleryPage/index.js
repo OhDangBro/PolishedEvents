@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import { Container } from "@mui/system";
 import CssBaseline from '@mui/material/CssBaseline';
-import galleryImageOne from "../../assets/images/GalleryImages/GalleryOne.JPG"
 import galleryImageTwo from "../../assets/images/GalleryImages/GalleryTwo.JPG"
 import galleryImageThree from "../../assets/images/GalleryImages/GalleryThree.jpg"
 import galleryImageFour from "../../assets/images/GalleryImages/GalleryFour.JPG"
@@ -20,7 +19,7 @@ import galleryImageFifteen from "../../assets/images/GalleryImages/GalleryFiftee
 import galleryImageSixteen from "../../assets/images/GalleryImages/GallerySixteen.jpg"
 
 
-const images = [  galleryImageOne,  galleryImageTwo,  galleryImageThree,  galleryImageFour,  galleryImageFive, galleryImageSix, galleryImageSeven, galleryImageEight, galleryImageNine, galleryImageTen, galleryImageEleven, galleryImageTwelve, galleryImageThirteen, galleryImageFourteen, galleryImageFifteen, galleryImageSixteen];
+const images = [    galleryImageTwo,  galleryImageThree,  galleryImageFour,  galleryImageFive, galleryImageSix, galleryImageSeven, galleryImageEight, galleryImageNine, galleryImageTen, galleryImageEleven, galleryImageTwelve, galleryImageThirteen, galleryImageFourteen, galleryImageFifteen, galleryImageSixteen];
 
 const Gallery = ({handeClick}) => {
   const [data, setData] = useState({ img: '', i: 0 });
